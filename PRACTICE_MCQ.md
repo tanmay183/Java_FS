@@ -547,3 +547,143 @@ This is the correct JSP lifecycle method order.
 Type-4 JDBC driver is 100% Java and platform independent.
 
 
+
+
+### ✅ **Important Topics to Prepare**
+
+#### 🔹 **Java Programming**
+
+1. **OOP Concepts**
+
+   * Inheritance, Polymorphism (compile-time & runtime), Abstraction, Encapsulation
+
+2. **Method Overriding vs Method Overloading**
+
+   * Key differences, real-time examples
+
+3. **Exception Handling in Java**
+
+   * `try-catch-finally`, multiple catch blocks, checked vs unchecked exceptions
+
+4. **Constructors and `super()` keyword**
+
+   * Constructor chaining, inheritance with constructors
+
+5. **Interfaces and Abstract Classes**
+
+   * When to use interface vs abstract class
+
+6. **Access Modifiers**
+
+   * `private`, `public`, `protected`, default — their scope and behavior in inheritance
+
+7. **Collections Framework**
+
+   * List, Set, Map, and their implementations like `ArrayList`, `HashMap`, `HashSet`
+
+8. **ArrayList vs LinkedList**
+
+   * Use cases, performance, internal structure
+
+9. **Wrapper Classes & Autoboxing/Unboxing**
+
+10. **Static and Final Keywords**
+
+    * Static variables/methods, final variables/classes/methods
+
+---
+
+#### 🔹 **JSP & Servlets**
+
+11. **Servlet Lifecycle**
+
+    * `init()`, `service()`, `destroy()` with flow
+
+12. **HttpServletRequest & HttpServletResponse methods**
+
+    * `getParameter()`, `sendRedirect()`, `forward()`, `include()`
+
+13. **JSP Implicit Objects**
+
+    * `request`, `response`, `session`, `application`, `out`, `config`, etc.
+
+14. **JSP Directives vs JSP Action Tags**
+
+    * `<%@ include %>` vs `<jsp:include>`
+    * `<jsp:forward>`, `<jsp:useBean>`
+
+15. **Session Management in JSP/Servlet**
+
+    * Cookies, URL Rewriting, HttpSession, Hidden fields
+
+---
+
+#### 🔹 **JDBC (Java Database Connectivity)**
+
+16. **JDBC Architecture**
+
+    * 4 types of JDBC drivers
+
+17. **JDBC Steps**
+
+    * Load driver, get connection, create statement, execute query, process result, close connection
+
+18. **JDBC Statement Types**
+
+    * `Statement`, `PreparedStatement`, `CallableStatement`
+
+19. **ResultSet Navigation**
+
+    * Iterating over ResultSet and fetching values using `getString()`, `getInt()`, etc.
+
+20. **executeQuery() vs executeUpdate() vs execute()**
+
+    * When to use each method
+
+---
+
+#### 🔹 **SQL (Structured Query Language)**
+
+21. **DDL vs DML vs DCL Commands**
+
+    * `CREATE`, `DROP`, `ALTER` vs `INSERT`, `UPDATE`, `DELETE`
+
+22. **GROUP BY vs ORDER BY**
+
+    * Use cases with `COUNT`, `SUM`, etc.
+
+23. **HAVING vs WHERE clause**
+
+    * Filtering aggregated vs non-aggregated results
+
+24. **JOINS**
+
+    * INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN with examples
+
+25. **Subqueries and Nested Queries**
+
+    * Scalar, Correlated, and Non-Correlated subqueries
+
+26. **SQL Functions**
+
+    * Aggregate (`COUNT`, `AVG`, `MIN`, `MAX`)
+    * String (`UPPER`, `LOWER`, `SUBSTR`, `CONCAT`)
+    * Date functions (`NOW()`, `DATE()`, `YEAR()`)
+
+27. **Normalization**
+
+    * 1NF, 2NF, 3NF — purpose and examples
+
+28. **Constraints in SQL**
+
+    * PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT
+
+29. **Indexes**
+
+    * Purpose, types (clustered, non-clustered)
+
+30. **Transactions and ACID Properties**
+
+    * COMMIT, ROLLBACK, SAVEPOINT
+
+---
